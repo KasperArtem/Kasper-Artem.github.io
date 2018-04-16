@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Barlow');
 
 body {
@@ -7,21 +8,21 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 	font-family: 'Barlow', sans-serif;
-}
+};
 .container {
 	width: 100%;
 	position: relative;
 	overflow: hidden;
-}
+};
 a {
 	text-decoration: none;
-}
+};
 h1.main, p.demos {
 	-webkit-animation-delay: 18s;
 	-moz-animation-delay: 18s;
 	-ms-animation-delay: 18s;
 	animation-delay: 18s;
-}
+};
 .sp-container {
 	position: fixed;
 	top: 0px;
@@ -33,7 +34,7 @@ h1.main, p.demos {
 	background: -moz-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
 	background: -ms-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
 	background: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
-}
+};
 .sp-content {
 	position: absolute;
 	width: 100%;
@@ -41,7 +42,7 @@ h1.main, p.demos {
 	left: 0px;
 	top: 0px;
 	z-index: 1000;
-}
+};
 .sp-container h2 {
 	position: absolute;
 	top: 50%;
@@ -56,7 +57,7 @@ h1.main, p.demos {
 	-moz-animation: blurFadeInOut 3s ease-in backwards;
 	-ms-animation: blurFadeInOut 3s ease-in backwards;
 	animation: blurFadeInOut 3s ease-in backwards;
-}
+};
 .sp-container h2.frame-1 {
 	-webkit-animation-delay: 0s;
 	-moz-animation-delay: 0s;
